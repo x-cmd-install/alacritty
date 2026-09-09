@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.17.0"
   latestRelease: "v0.17.0"
   latestPrerelease: "v0.17.0-rc2"
-  collectedAt: 2026-09-09T05:52:56Z
+  collectedAt: 2026-09-09T20:17:33Z
 timeline:
   created: 2016-02-18
   lastCommit: 2026-08-31
@@ -15,9 +15,9 @@ timeline:
   lastRelease: 2026-04-06
   lastPrerelease: 2026-04-02
 popularity:
-  star: 65662
+  star: 65666
   watcher: 456
-  fork: 3600
+  fork: 3604
   release: 108
   contributor: 460
   pullRequest: 2615
@@ -86,7 +86,7 @@ total:
   commit: 2493
 ---
 path: /home/runner/.x-repo/github.com/alacritty/alacritty
-collectedAt: 2026-09-09T05:53:04Z
+collectedAt: 2026-09-09T20:17:39Z
 loc:
   Rust:
     code: 24998
