@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 65,674 · **Forks**: 3,604 · **Open issues**: 6,347 · **Contributors**: 460
+- **Stars**: 65,675 · **Forks**: 3,604 · **Open issues**: 6,347 · **Contributors**: 460
 
 ## Totals (cumulative)
 
@@ -111,4 +111,4 @@ Install metadata for alacritty lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T20:27:01Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T23:25:50Z._

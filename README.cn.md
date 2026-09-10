@@ -12,7 +12,7 @@ A cross-platform, OpenGL terminal emulator.
 x install alacritty
 ```
 
-## 代码规模
+## 代码洞察
 
 合计: **29,350** 行代码（覆盖前 5 种语言、共 **107** 个文件）。
 
@@ -48,7 +48,7 @@ x install alacritty
 
 ## 流行度
 
-- **Star**: 65,674 · **Fork**: 3,604 · **开放 issue**: 6,347 · **贡献者**: 460
+- **Star**: 65,675 · **Fork**: 3,604 · **开放 issue**: 6,347 · **贡献者**: 460
 
 ## 累计统计
 
@@ -111,4 +111,4 @@ alacritty 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T20:27:03Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T23:25:51Z._
