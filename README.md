@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 65,677 · **Forks**: 3,604 · **Open issues**: 6,347 · **Contributors**: 460
+- **Stars**: 65,686 · **Forks**: 3,606 · **Open issues**: 6,347 · **Contributors**: 460
 
 ## Totals (cumulative)
 
@@ -86,7 +86,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **156** distros on [repology.org](https://repology.org/project/alacritty). **67** are ✅ on the latest upstream release, **75** are ⚠️ on an older version.
+Reported by **156** distros on [repology.org](https://repology.org/project/alacritty). **68** are ✅ on the latest upstream release, **74** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -111,4 +111,4 @@ Install metadata for alacritty lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T06:02:26Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T18:49:45Z._

@@ -48,7 +48,7 @@ x install alacritty
 
 ## 流行度
 
-- **Star**: 65,677 · **Fork**: 3,604 · **开放 issue**: 6,347 · **贡献者**: 460
+- **Star**: 65,686 · **Fork**: 3,606 · **开放 issue**: 6,347 · **贡献者**: 460
 
 ## 累计统计
 
@@ -86,7 +86,7 @@ x install alacritty
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/alacritty) 上共有 **156** 个发行版报告此项目。**67** 个 ✅ 已是最新上游版本，**75** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/alacritty) 上共有 **156** 个发行版报告此项目。**68** 个 ✅ 已是最新上游版本，**74** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -111,4 +111,4 @@ alacritty 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260911.yml` · 2026-09-11T06:02:32Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T18:49:46Z._
