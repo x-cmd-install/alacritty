@@ -1,65 +1,29 @@
-- repo: pkgsrc_2026_2
-  srcname: x11/alacritty
-  binname: alacritty
-  visiblename: x11/alacritty
-  version: 0.17.0
-  origversion: null
-  status: newest
-  summary: Cross-platform, GPU-accelerated terminal emulator
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - x11
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: alacritty
-  binname: alacritty
-  visiblename: alacritty
-  version: 0.17.0
-  origversion: 0.17.0-1
-  status: newest
-  summary: A cross-platform, GPU-accelerated terminal emulator
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: alacritty
-  binname: alacritty
-  visiblename: alacritty
-  version: 0.17.0
-  origversion: 0.17.0-1
-  status: newest
-  summary: A cross-platform, GPU-accelerated terminal emulator
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: alacritty
-  binname: alacritty
-  visiblename: alacritty
-  version: 0.17.0
-  origversion: 0.17.0-1
-  status: newest
-  summary: A cross-platform, GPU-accelerated terminal emulator
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: parrot
-  subrepo: parrot-updates/main
+- repo: raspbian_testing
+  subrepo: main
   srcname: rust-alacritty
   binnames:
     - alacritty
   visiblename: rust-alacritty
-  version: 0.15.1
-  origversion: 0.15.1-3
-  status: outdated
+  version: 0.17.0
+  origversion: 0.17.0-2
+  status: newest
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
     - jamessan@debian.org
   categories:
     - misc
+- repo: ravenports
+  srcname: alacritty
+  binname: alacritty
+  visiblename: alacritty
+  version: 0.17.0
+  origversion: null
+  status: newest
+  summary: Cross-platform, GPU-accelerated terminal emulator
+  maintainers:
+    - kraileth@elderlinux.org
+  categories:
+    - rust
 - repo: aerynos
   srcname: alacritty
   visiblename: alacritty
@@ -173,6 +137,18 @@
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: alacritty
+  binname: alacritty
+  visiblename: alacritty
+  version: 0.17.0
+  origversion: 0.17.0-1
+  status: newest
+  summary: A cross-platform, GPU-accelerated terminal emulator
+  licenses:
+    - Apache-2.0
+    - MIT
 - repo: alpine_3_18
   subrepo: community
   srcname: alacritty
@@ -671,6 +647,20 @@
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+  visiblename: rust-alacritty
+  version: 0.15.1
+  origversion: 0.15.1-3
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - jamessan@debian.org
+  categories:
+    - misc
 - repo: alpine_edge
   subrepo: community
   srcname: alacritty
@@ -1089,22 +1079,6 @@
   categories:
     - misc
 - repo: fedora_41
-  subrepo: release
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-    - rust-alacritty-debuginfo
-    - rust-alacritty-debugsource
-  visiblename: rust-alacritty
-  version: 0.13.2
-  origversion: 0.13.2-3.fc41
-  status: legacy
-  summary: Fast, cross-platform, OpenGL terminal emulator
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: updates
   srcname: rust-alacritty
   binnames:
@@ -1115,6 +1089,22 @@
   version: 0.15.1
   origversion: 0.15.1-3.fc41
   status: outdated
+  summary: Fast, cross-platform, OpenGL terminal emulator
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+    - rust-alacritty-debuginfo
+    - rust-alacritty-debugsource
+  visiblename: rust-alacritty
+  version: 0.13.2
+  origversion: 0.13.2-3.fc41
+  status: legacy
   summary: Fast, cross-platform, OpenGL terminal emulator
   licenses:
     - Apache-2.0
@@ -1184,20 +1174,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: parrot
-  subrepo: parrot/main
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-  visiblename: rust-alacritty
-  version: 0.15.1
-  origversion: 0.15.1-3
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - jamessan@debian.org
-  categories:
-    - misc
 - repo: fedora_44
   subrepo: release
   srcname: rust-alacritty
@@ -1504,15 +1480,30 @@
     - ASL 2.0
   categories:
     - Terminals
-- repo: pclinuxos
+- repo: manjaro_stable
+  subrepo: extra
   srcname: alacritty
+  binname: alacritty
   visiblename: alacritty
-  version: 0.15.1
-  origversion: 0.15.1-1pclos2025
-  status: outdated
+  version: 0.17.0
+  origversion: 0.17.0-1
+  status: newest
   summary: A cross-platform, GPU-accelerated terminal emulator
-  categories:
-    - Terminals
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: alacritty
+  binname: alacritty
+  visiblename: alacritty
+  version: 0.17.0
+  origversion: 0.17.0-1
+  status: newest
+  summary: A cross-platform, GPU-accelerated terminal emulator
+  licenses:
+    - Apache-2.0
+    - MIT
 - repo: msys2_clang64
   srcname: mingw-w64-alacritty
   binname: mingw-w64-clang-x86_64-alacritty
@@ -1775,6 +1766,53 @@
   licenses:
     - Apache-2.0
     - MIT
+- repo: parrot
+  subrepo: parrot/main
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+  visiblename: rust-alacritty
+  version: 0.15.1
+  origversion: 0.15.1-3
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - jamessan@debian.org
+  categories:
+    - misc
+- repo: pclinuxos
+  srcname: alacritty
+  visiblename: alacritty
+  version: 0.15.1
+  origversion: 0.15.1-1pclos2025
+  status: outdated
+  summary: A cross-platform, GPU-accelerated terminal emulator
+  categories:
+    - Terminals
+- repo: pkgsrc_2026_1
+  srcname: x11/alacritty
+  binname: alacritty
+  visiblename: x11/alacritty
+  version: 0.16.1
+  origversion: null
+  status: outdated
+  summary: Cross-platform, GPU-accelerated terminal emulator
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - x11
+- repo: pkgsrc_2026_2
+  srcname: x11/alacritty
+  binname: alacritty
+  visiblename: x11/alacritty
+  version: 0.17.0
+  origversion: null
+  status: newest
+  summary: Cross-platform, GPU-accelerated terminal emulator
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - x11
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: alacritty
@@ -2039,41 +2077,3 @@
   licenses:
     - Apache Software License 2.0
     - MIT License
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-  visiblename: rust-alacritty
-  version: 0.17.0
-  origversion: 0.17.0-2
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - jamessan@debian.org
-  categories:
-    - misc
-- repo: pkgsrc_2026_1
-  srcname: x11/alacritty
-  binname: alacritty
-  visiblename: x11/alacritty
-  version: 0.16.1
-  origversion: null
-  status: outdated
-  summary: Cross-platform, GPU-accelerated terminal emulator
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - x11
-- repo: ravenports
-  srcname: alacritty
-  binname: alacritty
-  visiblename: alacritty
-  version: 0.17.0
-  origversion: null
-  status: newest
-  summary: Cross-platform, GPU-accelerated terminal emulator
-  maintainers:
-    - kraileth@elderlinux.org
-  categories:
-    - rust
