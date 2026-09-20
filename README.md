@@ -4,7 +4,7 @@
 
 A cross-platform, OpenGL terminal emulator.
 
-![alacritty](https://repo.x-cmd.io/alacritty.svg)
+[![x-cmd/install — alacritty Code Quality Monitoring Repo Card](https://repo.x-cmd.io/alacritty.svg)](https://x-cmd.com/install/alacritty)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 65,755 · **Forks**: 3,613 · **Open issues**: 6,351 · **Contributors**: 460
+- **Stars**: 65,763 · **Forks**: 3,618 · **Open issues**: 6,352 · **Contributors**: 460
 
 ## Totals (cumulative)
 
-- **Releases**: 108 · **Merged PRs**: 1939 · **Open PRs**: 12 · **Closed issues**: 6022 · **Open issues**: 329 · **Commits**: 2493
+- **Releases**: 108 · **Merged PRs**: 1939 · **Open PRs**: 12 · **Closed issues**: 6024 · **Open issues**: 328 · **Commits**: 2493
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 2 | 2 | 7 | 1 | 2 |
-| last60d | 2026-07-20 | 0 | 4 | 3 | 16 | 4 | 4 |
-| 90d | 2026-06-20 | 0 | 5 | 3 | 30 | 5 | 6 |
-| last180d | 2026-03-22 | 2 | 16 | 4 | 84 | 12 | 14 |
-| 360d | 2025-09-23 | 5 | 45 | 6 | 190 | 24 | 41 |
-| last720d | 2024-09-28 | 15 | 143 | 7 | 524 | 42 | 136 |
+| 30d | 2026-08-21 | 0 | 2 | 2 | 7 | 1 | 2 |
+| last60d | 2026-07-22 | 0 | 4 | 3 | 17 | 4 | 4 |
+| 90d | 2026-06-22 | 0 | 5 | 3 | 30 | 4 | 6 |
+| last180d | 2026-03-24 | 2 | 16 | 4 | 85 | 12 | 14 |
+| 360d | 2025-09-25 | 5 | 45 | 6 | 191 | 24 | 41 |
+| last720d | 2024-09-30 | 15 | 142 | 7 | 524 | 41 | 136 |
 
 ## Release assets
 
@@ -93,4 +93,4 @@ Install metadata for alacritty lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:06:46Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:03:20Z._
