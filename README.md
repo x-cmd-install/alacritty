@@ -4,7 +4,7 @@
 
 A cross-platform, OpenGL terminal emulator.
 
-[![x-cmd/install — alacritty Code Quality Monitoring Repo Card](https://repo.x-cmd.io/alacritty.svg)](https://x-cmd.com/install/alacritty)
+[![x-cmd/install — alacritty Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/alacritty.svg)](https://x-cmd.com/install/alacritty)
 
 ## Install
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 65,784 · **Forks**: 3,619 · **Open issues**: 6,355 · **Contributors**: 460
+- **Stars**: 65,791 · **Forks**: 3,620 · **Open issues**: 6,355 · **Contributors**: 460
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 2 | 3 | 9 | 2 | 1 |
-| last60d | 2026-07-24 | 0 | 4 | 4 | 19 | 5 | 4 |
-| 90d | 2026-06-24 | 0 | 5 | 4 | 32 | 5 | 5 |
-| last180d | 2026-03-26 | 2 | 16 | 5 | 84 | 13 | 13 |
-| 360d | 2025-09-27 | 5 | 45 | 7 | 193 | 25 | 41 |
-| last720d | 2024-10-02 | 15 | 140 | 8 | 521 | 41 | 135 |
+| 30d | 2026-08-24 | 0 | 2 | 3 | 9 | 2 | 1 |
+| last60d | 2026-07-25 | 0 | 4 | 4 | 19 | 5 | 4 |
+| 90d | 2026-06-25 | 0 | 5 | 4 | 31 | 5 | 5 |
+| last180d | 2026-03-27 | 2 | 16 | 5 | 83 | 12 | 13 |
+| 360d | 2025-09-28 | 5 | 45 | 7 | 192 | 25 | 41 |
+| last720d | 2024-10-03 | 15 | 140 | 8 | 519 | 41 | 131 |
 
 ## Release assets
 
@@ -93,4 +93,4 @@ Install metadata for alacritty lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:14:45Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:11:47Z._
