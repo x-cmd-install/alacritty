@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 66,021 · **Forks**: 3,661 · **Open issues**: 6,370 · **Contributors**: 461
+- **Stars**: 66,026 · **Forks**: 3,664 · **Open issues**: 6,370 · **Contributors**: 461
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 0 | 1 | 3 | 15 | 1 | 2 |
-| last60d | 2026-08-24 | 0 | 4 | 5 | 26 | 2 | 4 |
-| 90d | 2026-07-25 | 0 | 6 | 6 | 36 | 5 | 6 |
-| last180d | 2026-04-26 | 0 | 13 | 7 | 79 | 8 | 14 |
-| 360d | 2025-10-28 | 3 | 39 | 9 | 194 | 23 | 36 |
-| last720d | 2024-11-02 | 12 | 120 | 10 | 491 | 40 | 117 |
+| 30d | 2026-09-24 | 0 | 1 | 3 | 14 | 1 | 2 |
+| last60d | 2026-08-25 | 0 | 3 | 5 | 26 | 2 | 4 |
+| 90d | 2026-07-26 | 0 | 6 | 6 | 36 | 5 | 6 |
+| last180d | 2026-04-27 | 0 | 13 | 7 | 79 | 8 | 14 |
+| 360d | 2025-10-29 | 3 | 39 | 9 | 192 | 23 | 36 |
+| last720d | 2024-11-03 | 12 | 120 | 10 | 489 | 40 | 114 |
 
 ## Release assets
 
@@ -86,7 +86,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **158** distros on [repology.org](https://repology.org/project/alacritty). **73** are ✅ on the latest upstream release, **69** are ⚠️ on an older version.
+Reported by **159** distros on [repology.org](https://repology.org/project/alacritty). **74** are ✅ on the latest upstream release, **69** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -111,4 +111,4 @@ Install metadata for alacritty lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T05:42:01Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T05:28:57Z._
