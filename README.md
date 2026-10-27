@@ -14,11 +14,11 @@ x install alacritty
 
 ## Code insight
 
-Total: **29,350** lines of code across **107** files in the top 5 languages.
+Total: **29,435** lines of code across **107** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 24,998 | 1,673 | 4,992 | 88 |
+| Rust | 25,083 | 1,673 | 4,998 | 88 |
 | Svg | 2,871 | 0 | 0 | 6 |
 | Bash | 528 | 0 | 3 | 1 |
 | Glsl | 267 | 55 | 85 | 6 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.17.0` (2026-04-06)
-- **Last commit**: 2026-10-16
+- **Last commit**: 2026-10-26
 - **Assets in release**: 14
 
 ## Popularity
 
-- **Stars**: 66,045 · **Forks**: 3,674 · **Open issues**: 6,370 · **Contributors**: 461
+- **Stars**: 66,061 · **Forks**: 3,675 · **Open issues**: 6,371 · **Contributors**: 462
 
 ## Totals (cumulative)
 
-- **Releases**: 108 · **Merged PRs**: 1941 · **Open PRs**: 16 · **Closed issues**: 6042 · **Open issues**: 328 · **Commits**: 2495
+- **Releases**: 108 · **Merged PRs**: 1942 · **Open PRs**: 15 · **Closed issues**: 6044 · **Open issues**: 327 · **Commits**: 2496
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 1 | 4 | 13 | 1 | 2 |
-| last60d | 2026-08-27 | 0 | 3 | 6 | 26 | 2 | 2 |
-| 90d | 2026-07-28 | 0 | 6 | 7 | 35 | 5 | 6 |
-| last180d | 2026-04-29 | 0 | 13 | 8 | 79 | 8 | 11 |
-| 360d | 2025-10-31 | 3 | 38 | 10 | 189 | 23 | 34 |
-| last720d | 2024-11-05 | 12 | 120 | 11 | 486 | 40 | 114 |
+| 30d | 2026-09-27 | 0 | 2 | 3 | 14 | 1 | 3 |
+| last60d | 2026-08-28 | 0 | 4 | 5 | 27 | 2 | 3 |
+| 90d | 2026-07-29 | 0 | 7 | 5 | 36 | 5 | 7 |
+| last180d | 2026-04-30 | 0 | 13 | 7 | 79 | 8 | 12 |
+| 360d | 2025-11-01 | 3 | 39 | 9 | 190 | 22 | 35 |
+| last720d | 2024-11-06 | 12 | 121 | 10 | 485 | 39 | 115 |
 
 ## Release assets
 
@@ -111,4 +111,4 @@ Install metadata for alacritty lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T05:40:59Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T06:02:29Z._
