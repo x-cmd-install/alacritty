@@ -4,18 +4,6 @@
   version: 0.10.0
   origversion: 0.10.0-1
   status: outdated
-- repo: deepin_25
-  subrepo: main
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-  visiblename: rust-alacritty
-  version: 0.13.2
-  origversion: 0.13.2-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - jamessan@debian.org
 - repo: pureos_landing
   subrepo: landing/main
   srcname: rust-alacritty
@@ -84,19 +72,6 @@
     - kraileth@elderlinux.org
   categories:
     - rust
-- repo: alpine_3_18
-  subrepo: community
-  srcname: alacritty
-  binname: alacritty-doc
-  visiblename: alacritty-doc
-  version: 0.12.1
-  origversion: 0.12.1-r0
-  status: outdated
-  summary: cross-platform, GPU-accelerated terminal emulator (documentation)
-  maintainers:
-    - soeren+alpine@soeren-tempel.net
-  licenses:
-    - Apache-2.0
 - repo: alpine_3_17
   subrepo: community
   srcname: alacritty
@@ -110,15 +85,15 @@
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
-- repo: alpine_3_18
+- repo: alpine_3_19
   subrepo: community
   srcname: alacritty
-  binname: alacritty-fish-completion
-  visiblename: alacritty-fish-completion
-  version: 0.12.1
-  origversion: 0.12.1-r0
+  binname: alacritty-zsh-completion
+  visiblename: alacritty-zsh-completion
+  version: 0.12.3
+  origversion: 0.12.3-r0
   status: outdated
-  summary: Fish completions for alacritty
+  summary: Zsh completions for alacritty
   maintainers:
     - soeren+alpine@soeren-tempel.net
   licenses:
@@ -214,6 +189,32 @@
 - repo: alpine_3_18
   subrepo: community
   srcname: alacritty
+  binname: alacritty-doc
+  visiblename: alacritty-doc
+  version: 0.12.1
+  origversion: 0.12.1-r0
+  status: outdated
+  summary: cross-platform, GPU-accelerated terminal emulator (documentation)
+  maintainers:
+    - soeren+alpine@soeren-tempel.net
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: alacritty
+  binname: alacritty-fish-completion
+  visiblename: alacritty-fish-completion
+  version: 0.12.1
+  origversion: 0.12.1-r0
+  status: outdated
+  summary: Fish completions for alacritty
+  maintainers:
+    - soeren+alpine@soeren-tempel.net
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: alacritty
   binname: alacritty-zsh-completion
   visiblename: alacritty-zsh-completion
   version: 0.12.1
@@ -284,19 +285,6 @@
   origversion: 0.12.3-r0
   status: outdated
   summary: Fish completions for alacritty
-  maintainers:
-    - soeren+alpine@soeren-tempel.net
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_19
-  subrepo: community
-  srcname: alacritty
-  binname: alacritty-zsh-completion
-  visiblename: alacritty-zsh-completion
-  version: 0.12.3
-  origversion: 0.12.3-r0
-  status: outdated
-  summary: Zsh completions for alacritty
   maintainers:
     - soeren+alpine@soeren-tempel.net
   licenses:
@@ -987,6 +975,18 @@
     - jamessan@debian.org
   categories:
     - misc
+- repo: deepin_25
+  subrepo: main
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+  visiblename: rust-alacritty
+  version: 0.13.2
+  origversion: 0.13.2-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - jamessan@debian.org
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: rust-alacritty
@@ -1057,17 +1057,31 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: kali_rolling
+  subrepo: main
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+  visiblename: rust-alacritty
+  version: 0.17.0
+  origversion: 0.17.0-2
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - jamessan@debian.org
+  categories:
+    - misc
 - repo: fedora_40
-  subrepo: updates
+  subrepo: release
   srcname: rust-alacritty
   binnames:
     - alacritty
     - rust-alacritty-debuginfo
     - rust-alacritty-debugsource
   visiblename: rust-alacritty
-  version: 0.15.1
-  origversion: 0.15.1-1.fc40
-  status: outdated
+  version: 0.13.2
+  origversion: 0.13.2-1.fc40
+  status: legacy
   summary: Fast, cross-platform, OpenGL terminal emulator
   licenses:
     - Apache-2.0
@@ -1086,16 +1100,16 @@
   categories:
     - x11
 - repo: fedora_40
-  subrepo: release
+  subrepo: updates
   srcname: rust-alacritty
   binnames:
     - alacritty
     - rust-alacritty-debuginfo
     - rust-alacritty-debugsource
   visiblename: rust-alacritty
-  version: 0.13.2
-  origversion: 0.13.2-1.fc40
-  status: legacy
+  version: 0.15.1
+  origversion: 0.15.1-1.fc40
+  status: outdated
   summary: Fast, cross-platform, OpenGL terminal emulator
   licenses:
     - Apache-2.0
@@ -1349,20 +1363,6 @@
   origversion: null
   status: newest
   summary: GPU-accelerated terminal emulator
-- repo: kali_rolling
-  subrepo: main
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-  visiblename: rust-alacritty
-  version: 0.17.0
-  origversion: 0.17.0-2
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - jamessan@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: x11-terms/alacritty
   visiblename: x11-terms/alacritty
@@ -1823,7 +1823,7 @@
     - Apache-2.0
     - MIT
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: rust-alacritty
   binnames:
     - alacritty
@@ -1837,7 +1837,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: rust-alacritty
   binnames:
     - alacritty
