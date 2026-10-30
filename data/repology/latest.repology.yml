@@ -1,92 +1,37 @@
-- repo: raspbian_stable
+- repo: deepin_23
   subrepo: main
   srcname: rust-alacritty
   binnames:
     - alacritty
   visiblename: rust-alacritty
-  version: 0.15.1
-  origversion: 0.15.1-3
+  version: 0.13.2
+  origversion: 0.13.2-2
   status: outdated
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
     - jamessan@debian.org
   categories:
     - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-  visiblename: rust-alacritty
-  version: 0.17.0
-  origversion: 0.17.0-2
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - jamessan@debian.org
-  categories:
-    - misc
-- repo: ravenports
+- repo: crux_37
+  subrepo: contrib
   srcname: alacritty
-  binname: alacritty
   visiblename: alacritty
-  version: 0.17.0
-  origversion: null
-  status: newest
-  summary: Cross-platform, GPU-accelerated terminal emulator
-  maintainers:
-    - kraileth@elderlinux.org
-  categories:
-    - rust
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-  visiblename: rust-alacritty
   version: 0.15.1
-  origversion: 0.15.1-2
+  origversion: null
   status: outdated
+  summary: A cross-platform, GPU-accelerated terminal emulator
   maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - jamessan@debian.org
-  categories:
-    - universe/misc
-- repo: chimera
-  subrepo: user
+    - tbier@posteo.de
+- repo: crux_38
+  subrepo: contrib
   srcname: alacritty
-  binname: alacritty
   visiblename: alacritty
   version: 0.17.0
-  origversion: 0.17.0-r0
-  status: newest
-  summary: Cross-platform, GPU-accelerated terminal emulator
-  licenses:
-    - MIT OR Apache-2.0
-- repo: nix_stable_25_11
-  srcname: alacritty-graphics
-  visiblename: alacritty
-  version: 0.16.1-graphics
   origversion: null
-  status: legacy
-  summary: Cross-platform, GPU-accelerated terminal emulator
+  status: newest
+  summary: A cross-platform, GPU-accelerated terminal emulator
   maintainers:
-    - surryhill+nix@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_17
-  subrepo: community
-  srcname: alacritty
-  binname: alacritty
-  visiblename: alacritty
-  version: 0.11.0
-  origversion: 0.11.0-r0
-  status: outdated
-  summary: cross-platform, GPU-accelerated terminal emulator
-  maintainers:
-    - soeren+alpine@soeren-tempel.net
-  licenses:
-    - Apache-2.0
+    - tbier@posteo.de
 - repo: aerynos
   srcname: alacritty
   visiblename: alacritty
@@ -113,6 +58,19 @@
 - repo: alpine_3_17
   subrepo: community
   srcname: alacritty
+  binname: alacritty
+  visiblename: alacritty
+  version: 0.11.0
+  origversion: 0.11.0-r0
+  status: outdated
+  summary: cross-platform, GPU-accelerated terminal emulator
+  maintainers:
+    - soeren+alpine@soeren-tempel.net
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_17
+  subrepo: community
+  srcname: alacritty
   binname: alacritty-doc
   visiblename: alacritty-doc
   version: 0.11.0
@@ -201,6 +159,18 @@
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
+- repo: deepin_25
+  subrepo: main
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+  visiblename: rust-alacritty
+  version: 0.13.2
+  origversion: 0.13.2-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - jamessan@debian.org
 - repo: alpine_3_18
   subrepo: community
   srcname: alacritty
@@ -240,354 +210,341 @@
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
-- repo: artix
-  subrepo: world
+- repo: alpine_3_19
+  subrepo: community
+  srcname: alacritty
+  binname: alacritty-doc
+  visiblename: alacritty-doc
+  version: 0.12.3
+  origversion: 0.12.3-r0
+  status: outdated
+  summary: cross-platform, GPU-accelerated terminal emulator (documentation)
+  maintainers:
+    - soeren+alpine@soeren-tempel.net
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: alacritty
+  binname: alacritty-fish-completion
+  visiblename: alacritty-fish-completion
+  version: 0.12.3
+  origversion: 0.12.3-r0
+  status: outdated
+  summary: Fish completions for alacritty
+  maintainers:
+    - soeren+alpine@soeren-tempel.net
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: alacritty
+  binname: alacritty-zsh-completion
+  visiblename: alacritty-zsh-completion
+  version: 0.12.3
+  origversion: 0.12.3-r0
+  status: outdated
+  summary: Zsh completions for alacritty
+  maintainers:
+    - soeren+alpine@soeren-tempel.net
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
   srcname: alacritty
   binname: alacritty
+  visiblename: alacritty
+  version: 0.13.2
+  origversion: 0.13.2-r0
+  status: outdated
+  summary: cross-platform, GPU-accelerated terminal emulator
+  maintainers:
+    - soeren+alpine@soeren-tempel.net
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: alacritty
+  binname: alacritty-bash-completion
+  visiblename: alacritty-bash-completion
+  version: 0.13.2
+  origversion: 0.13.2-r0
+  status: outdated
+  summary: Bash completions for alacritty
+  maintainers:
+    - soeren+alpine@soeren-tempel.net
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: alacritty
+  binname: alacritty-doc
+  visiblename: alacritty-doc
+  version: 0.13.2
+  origversion: 0.13.2-r0
+  status: outdated
+  summary: cross-platform, GPU-accelerated terminal emulator (documentation)
+  maintainers:
+    - soeren+alpine@soeren-tempel.net
+  licenses:
+    - Apache-2.0
+- repo: chocolatey
+  binname: alacritty.portable
+  visiblename: Alacritty (Portable)
+  version: 0.17.0
+  origversion: null
+  status: newest
+  summary: A fast, cross-platform, OpenGL terminal emulator
+- repo: alpine_3_20
+  subrepo: community
+  srcname: alacritty
+  binname: alacritty-fish-completion
+  visiblename: alacritty-fish-completion
+  version: 0.13.2
+  origversion: 0.13.2-r0
+  status: outdated
+  summary: Fish completions for alacritty
+  maintainers:
+    - soeren+alpine@soeren-tempel.net
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: alacritty
+  binname: alacritty-zsh-completion
+  visiblename: alacritty-zsh-completion
+  version: 0.13.2
+  origversion: 0.13.2-r0
+  status: outdated
+  summary: Zsh completions for alacritty
+  maintainers:
+    - soeren+alpine@soeren-tempel.net
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: alacritty
+  binname: alacritty
+  visiblename: alacritty
+  version: 0.14.0
+  origversion: 0.14.0-r0
+  status: outdated
+  summary: cross-platform, GPU-accelerated terminal emulator
+  maintainers:
+    - soeren+alpine@soeren-tempel.net
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: alacritty
+  binname: alacritty-bash-completion
+  visiblename: alacritty-bash-completion
+  version: 0.14.0
+  origversion: 0.14.0-r0
+  status: outdated
+  summary: Bash completions for alacritty
+  maintainers:
+    - soeren+alpine@soeren-tempel.net
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: alacritty
+  binname: alacritty-doc
+  visiblename: alacritty-doc
+  version: 0.14.0
+  origversion: 0.14.0-r0
+  status: outdated
+  summary: cross-platform, GPU-accelerated terminal emulator (documentation)
+  maintainers:
+    - soeren+alpine@soeren-tempel.net
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: alacritty
+  binname: alacritty-fish-completion
+  visiblename: alacritty-fish-completion
+  version: 0.14.0
+  origversion: 0.14.0-r0
+  status: outdated
+  summary: Fish completions for alacritty
+  maintainers:
+    - soeren+alpine@soeren-tempel.net
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: alacritty
+  binname: alacritty-zsh-completion
+  visiblename: alacritty-zsh-completion
+  version: 0.14.0
+  origversion: 0.14.0-r0
+  status: outdated
+  summary: Zsh completions for alacritty
+  maintainers:
+    - soeren+alpine@soeren-tempel.net
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: alacritty
+  binname: alacritty
+  visiblename: alacritty
+  version: 0.15.1
+  origversion: 0.15.1-r0
+  status: outdated
+  summary: cross-platform, GPU-accelerated terminal emulator
+  maintainers:
+    - soeren+alpine@soeren-tempel.net
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: alacritty
+  binname: alacritty-bash-completion
+  visiblename: alacritty-bash-completion
+  version: 0.15.1
+  origversion: 0.15.1-r0
+  status: outdated
+  summary: Bash completions for alacritty
+  maintainers:
+    - soeren+alpine@soeren-tempel.net
+  licenses:
+    - Apache-2.0
+- repo: chromebrew
+  srcname: alacritty
   visiblename: alacritty
   version: 0.17.0
-  origversion: 0.17.0-1
+  origversion: null
   status: newest
   summary: A cross-platform, GPU-accelerated terminal emulator
   licenses:
-    - Apache-2.0
-    - MIT
-- repo: alpine_3_19
+    - Apache
+- repo: alpine_3_22
   subrepo: community
   srcname: alacritty
   binname: alacritty-doc
   visiblename: alacritty-doc
-  version: 0.12.3
-  origversion: 0.12.3-r0
+  version: 0.15.1
+  origversion: 0.15.1-r0
   status: outdated
   summary: cross-platform, GPU-accelerated terminal emulator (documentation)
   maintainers:
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
-- repo: alpine_3_19
+- repo: alpine_3_22
   subrepo: community
   srcname: alacritty
   binname: alacritty-fish-completion
   visiblename: alacritty-fish-completion
-  version: 0.12.3
-  origversion: 0.12.3-r0
+  version: 0.15.1
+  origversion: 0.15.1-r0
   status: outdated
   summary: Fish completions for alacritty
   maintainers:
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
-- repo: alpine_3_19
+- repo: alpine_3_22
   subrepo: community
   srcname: alacritty
   binname: alacritty-zsh-completion
   visiblename: alacritty-zsh-completion
-  version: 0.12.3
-  origversion: 0.12.3-r0
+  version: 0.15.1
+  origversion: 0.15.1-r0
   status: outdated
   summary: Zsh completions for alacritty
   maintainers:
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
-- repo: alpine_3_20
+- repo: alpine_3_23
   subrepo: community
   srcname: alacritty
   binname: alacritty
   visiblename: alacritty
-  version: 0.13.2
-  origversion: 0.13.2-r0
+  version: 0.16.1
+  origversion: 0.16.1-r0
   status: outdated
   summary: cross-platform, GPU-accelerated terminal emulator
   maintainers:
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
-- repo: alpine_3_20
+- repo: alpine_3_23
   subrepo: community
   srcname: alacritty
   binname: alacritty-bash-completion
   visiblename: alacritty-bash-completion
-  version: 0.13.2
-  origversion: 0.13.2-r0
+  version: 0.16.1
+  origversion: 0.16.1-r0
   status: outdated
   summary: Bash completions for alacritty
   maintainers:
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
-- repo: alpine_3_20
+- repo: alpine_3_23
   subrepo: community
   srcname: alacritty
   binname: alacritty-doc
   visiblename: alacritty-doc
-  version: 0.13.2
-  origversion: 0.13.2-r0
+  version: 0.16.1
+  origversion: 0.16.1-r0
   status: outdated
   summary: cross-platform, GPU-accelerated terminal emulator (documentation)
   maintainers:
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
-- repo: alpine_3_20
+- repo: alpine_3_23
   subrepo: community
   srcname: alacritty
   binname: alacritty-fish-completion
   visiblename: alacritty-fish-completion
-  version: 0.13.2
-  origversion: 0.13.2-r0
+  version: 0.16.1
+  origversion: 0.16.1-r0
   status: outdated
   summary: Fish completions for alacritty
   maintainers:
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
-- repo: alpine_3_20
+- repo: alpine_3_23
   subrepo: community
   srcname: alacritty
   binname: alacritty-zsh-completion
   visiblename: alacritty-zsh-completion
-  version: 0.13.2
-  origversion: 0.13.2-r0
+  version: 0.16.1
+  origversion: 0.16.1-r0
   status: outdated
   summary: Zsh completions for alacritty
   maintainers:
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
-- repo: alpine_3_21
+- repo: alpine_3_24
   subrepo: community
   srcname: alacritty
   binname: alacritty
   visiblename: alacritty
-  version: 0.14.0
-  origversion: 0.14.0-r0
-  status: outdated
+  version: 0.17.0
+  origversion: 0.17.0-r0
+  status: newest
   summary: cross-platform, GPU-accelerated terminal emulator
   maintainers:
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
-- repo: pkgsrc_2026_2
-  srcname: x11/alacritty
-  binname: alacritty
-  visiblename: x11/alacritty
+- repo: crates_io
+  srcname: alacritty
+  visiblename: alacritty
   version: 0.17.0
   origversion: null
   status: newest
-  summary: Cross-platform, GPU-accelerated terminal emulator
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - x11
-- repo: alpine_3_21
-  subrepo: community
-  srcname: alacritty
-  binname: alacritty-bash-completion
-  visiblename: alacritty-bash-completion
-  version: 0.14.0
-  origversion: 0.14.0-r0
-  status: outdated
-  summary: Bash completions for alacritty
-  maintainers:
-    - soeren+alpine@soeren-tempel.net
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: alacritty
-  binname: alacritty-doc
-  visiblename: alacritty-doc
-  version: 0.14.0
-  origversion: 0.14.0-r0
-  status: outdated
-  summary: cross-platform, GPU-accelerated terminal emulator (documentation)
-  maintainers:
-    - soeren+alpine@soeren-tempel.net
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: alacritty
-  binname: alacritty-fish-completion
-  visiblename: alacritty-fish-completion
-  version: 0.14.0
-  origversion: 0.14.0-r0
-  status: outdated
-  summary: Fish completions for alacritty
-  maintainers:
-    - soeren+alpine@soeren-tempel.net
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: alacritty
-  binname: alacritty-zsh-completion
-  visiblename: alacritty-zsh-completion
-  version: 0.14.0
-  origversion: 0.14.0-r0
-  status: outdated
-  summary: Zsh completions for alacritty
-  maintainers:
-    - soeren+alpine@soeren-tempel.net
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: alacritty
-  binname: alacritty
-  visiblename: alacritty
-  version: 0.15.1
-  origversion: 0.15.1-r0
-  status: outdated
-  summary: cross-platform, GPU-accelerated terminal emulator
-  maintainers:
-    - soeren+alpine@soeren-tempel.net
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: alacritty
-  binname: alacritty-bash-completion
-  visiblename: alacritty-bash-completion
-  version: 0.15.1
-  origversion: 0.15.1-r0
-  status: outdated
-  summary: Bash completions for alacritty
-  maintainers:
-    - soeren+alpine@soeren-tempel.net
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: alacritty
-  binname: alacritty-doc
-  visiblename: alacritty-doc
-  version: 0.15.1
-  origversion: 0.15.1-r0
-  status: outdated
-  summary: cross-platform, GPU-accelerated terminal emulator (documentation)
-  maintainers:
-    - soeren+alpine@soeren-tempel.net
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: alacritty
-  binname: alacritty-fish-completion
-  visiblename: alacritty-fish-completion
-  version: 0.15.1
-  origversion: 0.15.1-r0
-  status: outdated
-  summary: Fish completions for alacritty
-  maintainers:
-    - soeren+alpine@soeren-tempel.net
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: alacritty
-  binname: alacritty-zsh-completion
-  visiblename: alacritty-zsh-completion
-  version: 0.15.1
-  origversion: 0.15.1-r0
-  status: outdated
-  summary: Zsh completions for alacritty
-  maintainers:
-    - soeren+alpine@soeren-tempel.net
-  licenses:
-    - Apache-2.0
-- repo: pkgsrc_2026_3
-  srcname: x11/alacritty
-  binname: alacritty
-  visiblename: x11/alacritty
-  version: 0.17.0
-  origversion: null
-  status: newest
-  summary: Cross-platform, GPU-accelerated terminal emulator
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - x11
-- repo: alpine_3_23
-  subrepo: community
-  srcname: alacritty
-  binname: alacritty
-  visiblename: alacritty
-  version: 0.16.1
-  origversion: 0.16.1-r0
-  status: outdated
-  summary: cross-platform, GPU-accelerated terminal emulator
-  maintainers:
-    - soeren+alpine@soeren-tempel.net
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: alacritty
-  binname: alacritty-bash-completion
-  visiblename: alacritty-bash-completion
-  version: 0.16.1
-  origversion: 0.16.1-r0
-  status: outdated
-  summary: Bash completions for alacritty
-  maintainers:
-    - soeren+alpine@soeren-tempel.net
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: alacritty
-  binname: alacritty-doc
-  visiblename: alacritty-doc
-  version: 0.16.1
-  origversion: 0.16.1-r0
-  status: outdated
-  summary: cross-platform, GPU-accelerated terminal emulator (documentation)
-  maintainers:
-    - soeren+alpine@soeren-tempel.net
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: alacritty
-  binname: alacritty-fish-completion
-  visiblename: alacritty-fish-completion
-  version: 0.16.1
-  origversion: 0.16.1-r0
-  status: outdated
-  summary: Fish completions for alacritty
-  maintainers:
-    - soeren+alpine@soeren-tempel.net
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: alacritty
-  binname: alacritty-zsh-completion
-  visiblename: alacritty-zsh-completion
-  version: 0.16.1
-  origversion: 0.16.1-r0
-  status: outdated
-  summary: Zsh completions for alacritty
-  maintainers:
-    - soeren+alpine@soeren-tempel.net
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: alacritty
-  binname: alacritty
-  visiblename: alacritty
-  version: 0.17.0
-  origversion: 0.17.0-r0
-  status: newest
-  summary: cross-platform, GPU-accelerated terminal emulator
-  maintainers:
-    - soeren+alpine@soeren-tempel.net
-  licenses:
-    - Apache-2.0
+  summary: A fast, cross-platform, OpenGL terminal emulator
 - repo: alpine_3_24
   subrepo: community
   srcname: alacritty
@@ -627,18 +584,6 @@
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
-- repo: pkgsrc_current
-  srcname: x11/alacritty
-  binname: alacritty
-  visiblename: x11/alacritty
-  version: 0.17.0
-  origversion: null
-  status: newest
-  summary: Cross-platform, GPU-accelerated terminal emulator
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - x11
 - repo: alpine_3_24
   subrepo: community
   srcname: alacritty
@@ -785,6 +730,29 @@
     - ilovemikael@aur
   licenses:
     - Apache
+- repo: artix
+  subrepo: world
+  srcname: alacritty
+  binname: alacritty
+  visiblename: alacritty
+  version: 0.17.0
+  origversion: 0.17.0-1
+  status: newest
+  summary: A cross-platform, GPU-accelerated terminal emulator
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: alacritty
+  binname: alacritty
+  visiblename: alacritty
+  version: 0.17.0
+  origversion: 0.17.0-r0
+  status: newest
+  summary: Cross-platform, GPU-accelerated terminal emulator
+  licenses:
+    - MIT OR Apache-2.0
 - repo: chimera
   subrepo: user
   srcname: alacritty
@@ -854,49 +822,6 @@
   origversion: null
   status: newest
   summary: A fast, cross-platform, OpenGL terminal emulator
-- repo: chocolatey
-  binname: alacritty.portable
-  visiblename: Alacritty (Portable)
-  version: 0.17.0
-  origversion: null
-  status: newest
-  summary: A fast, cross-platform, OpenGL terminal emulator
-- repo: chromebrew
-  srcname: alacritty
-  visiblename: alacritty
-  version: 0.17.0
-  origversion: null
-  status: newest
-  summary: A cross-platform, GPU-accelerated terminal emulator
-  licenses:
-    - Apache
-- repo: crates_io
-  srcname: alacritty
-  visiblename: alacritty
-  version: 0.17.0
-  origversion: null
-  status: newest
-  summary: A fast, cross-platform, OpenGL terminal emulator
-- repo: crux_37
-  subrepo: contrib
-  srcname: alacritty
-  visiblename: alacritty
-  version: 0.15.1
-  origversion: null
-  status: outdated
-  summary: A cross-platform, GPU-accelerated terminal emulator
-  maintainers:
-    - tbier@posteo.de
-- repo: crux_38
-  subrepo: contrib
-  srcname: alacritty
-  visiblename: alacritty
-  version: 0.17.0
-  origversion: null
-  status: newest
-  summary: A cross-platform, GPU-accelerated terminal emulator
-  maintainers:
-    - tbier@posteo.de
 - repo: debian_12
   subrepo: bookworm/main
   srcname: rust-alacritty
@@ -953,32 +878,12 @@
     - jamessan@debian.org
   categories:
     - misc
-- repo: deepin_23
-  subrepo: main
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-  visiblename: rust-alacritty
-  version: 0.13.2
-  origversion: 0.13.2-2
+- repo: pld
+  srcname: alacritty
+  visiblename: alacritty
+  version: 0.10.0
+  origversion: 0.10.0-1
   status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - jamessan@debian.org
-  categories:
-    - misc
-- repo: deepin_25
-  subrepo: main
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-  visiblename: rust-alacritty
-  version: 0.13.2
-  origversion: 0.13.2-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - jamessan@debian.org
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: rust-alacritty
@@ -1049,6 +954,18 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: nix_stable_25_11
+  srcname: alacritty
+  visiblename: alacritty
+  version: 0.16.1
+  origversion: null
+  status: outdated
+  summary: Cross-platform, GPU-accelerated terminal emulator
+  maintainers:
+    - brightone@protonmail.com
+    - ramses@well-founded.dev
+  licenses:
+    - Apache-2.0
 - repo: fedora_40
   subrepo: updates
   srcname: rust-alacritty
@@ -1081,12 +998,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: pld
-  srcname: alacritty
-  visiblename: alacritty
-  version: 0.10.0
-  origversion: 0.10.0-1
-  status: outdated
 - repo: fedora_41
   subrepo: release
   srcname: rust-alacritty
@@ -1184,22 +1095,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: updates
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-    - rust-alacritty-debuginfo
-    - rust-alacritty-debugsource
-  visiblename: rust-alacritty
-  version: 0.17.0
-  origversion: 0.17.0-1.fc44
-  status: newest
-  summary: Fast, cross-platform, OpenGL terminal emulator
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: release
   srcname: rust-alacritty
   binnames:
@@ -1210,6 +1105,22 @@
   version: 0.16.1
   origversion: 0.16.1-3.fc44
   status: legacy
+  summary: Fast, cross-platform, OpenGL terminal emulator
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+    - rust-alacritty-debuginfo
+    - rust-alacritty-debugsource
+  visiblename: rust-alacritty
+  version: 0.17.0
+  origversion: 0.17.0-1.fc44
+  status: newest
   summary: Fast, cross-platform, OpenGL terminal emulator
   licenses:
     - Apache-2.0
@@ -1479,20 +1390,6 @@
     - Apache-2
   categories:
     - aqua
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-  visiblename: rust-alacritty
-  version: 0.15.1
-  origversion: 0.15.1-3
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - jamessan@debian.org
-  categories:
-    - x11
 - repo: mageia_9
   subrepo: core/release
   srcname: alacritty
@@ -1652,31 +1549,16 @@
   licenses:
     - Apache-2.0
 - repo: nix_stable_25_11
-  srcname: alacritty
+  srcname: alacritty-graphics
   visiblename: alacritty
-  version: 0.16.1
+  version: 0.16.1-graphics
   origversion: null
-  status: outdated
+  status: legacy
   summary: Cross-platform, GPU-accelerated terminal emulator
   maintainers:
-    - brightone@protonmail.com
-    - ramses@well-founded.dev
+    - surryhill+nix@gmail.com
   licenses:
     - Apache-2.0
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-  visiblename: rust-alacritty
-  version: 0.11.0
-  origversion: 0.11.0-4
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - jamessan@debian.org
-  categories:
-    - misc
 - repo: nix_stable_26_05
   srcname: alacritty
   visiblename: alacritty
@@ -1837,20 +1719,6 @@
     - Apache-2.0
     - MIT
 - repo: parrot
-  subrepo: parrot-updates/main
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-  visiblename: rust-alacritty
-  version: 0.15.1
-  origversion: 0.15.1-3
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - jamessan@debian.org
-  categories:
-    - misc
-- repo: parrot
   subrepo: parrot/main
   srcname: rust-alacritty
   binnames:
@@ -1864,15 +1732,110 @@
     - jamessan@debian.org
   categories:
     - misc
-- repo: pclinuxos
-  srcname: alacritty
-  visiblename: alacritty
-  version: 0.15.1
-  origversion: 0.15.1-1pclos2025
-  status: outdated
-  summary: A cross-platform, GPU-accelerated terminal emulator
+- repo: pkgsrc_2026_2
+  srcname: x11/alacritty
+  binname: alacritty
+  visiblename: x11/alacritty
+  version: 0.17.0
+  origversion: null
+  status: newest
+  summary: Cross-platform, GPU-accelerated terminal emulator
+  maintainers:
+    - pkgsrc-users@netbsd.org
   categories:
-    - Terminals
+    - x11
+- repo: pkgsrc_2026_3
+  srcname: x11/alacritty
+  binname: alacritty
+  visiblename: x11/alacritty
+  version: 0.17.0
+  origversion: null
+  status: newest
+  summary: Cross-platform, GPU-accelerated terminal emulator
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - x11
+- repo: pkgsrc_current
+  srcname: x11/alacritty
+  binname: alacritty
+  visiblename: x11/alacritty
+  version: 0.17.0
+  origversion: null
+  status: newest
+  summary: Cross-platform, GPU-accelerated terminal emulator
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - x11
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+  visiblename: rust-alacritty
+  version: 0.15.1
+  origversion: 0.15.1-3
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - jamessan@debian.org
+  categories:
+    - x11
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+  visiblename: rust-alacritty
+  version: 0.11.0
+  origversion: 0.11.0-4
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - jamessan@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+  visiblename: rust-alacritty
+  version: 0.15.1
+  origversion: 0.15.1-3
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - jamessan@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+  visiblename: rust-alacritty
+  version: 0.17.0
+  origversion: 0.17.0-2
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - jamessan@debian.org
+  categories:
+    - misc
+- repo: ravenports
+  srcname: alacritty
+  binname: alacritty
+  visiblename: alacritty
+  version: 0.17.0
+  origversion: null
+  status: newest
+  summary: Cross-platform, GPU-accelerated terminal emulator
+  maintainers:
+    - kraileth@elderlinux.org
+  categories:
+    - rust
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: alacritty
@@ -2045,6 +2008,20 @@
     - jamessan@debian.org
   categories:
     - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+  visiblename: rust-alacritty
+  version: 0.15.1
+  origversion: 0.15.1-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - jamessan@debian.org
+  categories:
+    - universe/misc
 - repo: ubuntu_25_10
   subrepo: questing/universe
   srcname: rust-alacritty
@@ -2133,3 +2110,26 @@
   licenses:
     - Apache Software License 2.0
     - MIT License
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+  visiblename: rust-alacritty
+  version: 0.15.1
+  origversion: 0.15.1-3
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - jamessan@debian.org
+  categories:
+    - misc
+- repo: pclinuxos
+  srcname: alacritty
+  visiblename: alacritty
+  version: 0.15.1
+  origversion: 0.15.1-1pclos2025
+  status: outdated
+  summary: A cross-platform, GPU-accelerated terminal emulator
+  categories:
+    - Terminals
