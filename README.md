@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.17.0` (2026-04-06)
-- **Last commit**: 2026-10-26
+- **Last commit**: 2026-11-02
 - **Assets in release**: 14
 
 ## Popularity
 
-- **Stars**: 66,095 · **Forks**: 3,696 · **Open issues**: 6,369 · **Contributors**: 462
+- **Stars**: 66,107 · **Forks**: 3,701 · **Open issues**: 6,369 · **Contributors**: 463
 
 ## Totals (cumulative)
 
-- **Releases**: 108 · **Merged PRs**: 1942 · **Open PRs**: 18 · **Closed issues**: 6043 · **Open issues**: 326 · **Commits**: 2496
+- **Releases**: 108 · **Merged PRs**: 1943 · **Open PRs**: 17 · **Closed issues**: 6043 · **Open issues**: 326 · **Commits**: 2497
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 2 | 6 | 15 | 1 | 3 |
-| last60d | 2026-09-02 | 0 | 3 | 8 | 27 | 2 | 3 |
-| 90d | 2026-08-03 | 0 | 6 | 8 | 35 | 5 | 7 |
-| last180d | 2026-05-05 | 0 | 12 | 10 | 79 | 8 | 12 |
-| 360d | 2025-11-06 | 3 | 37 | 12 | 190 | 22 | 35 |
-| last720d | 2024-11-11 | 12 | 121 | 13 | 482 | 39 | 115 |
+| 30d | 2026-10-03 | 0 | 3 | 5 | 15 | 1 | 3 |
+| last60d | 2026-09-03 | 0 | 4 | 7 | 26 | 2 | 4 |
+| 90d | 2026-08-04 | 0 | 7 | 7 | 35 | 5 | 7 |
+| last180d | 2026-05-06 | 0 | 13 | 9 | 78 | 8 | 13 |
+| 360d | 2025-11-07 | 3 | 38 | 11 | 189 | 22 | 34 |
+| last720d | 2024-11-12 | 12 | 122 | 12 | 479 | 39 | 116 |
 
 ## Release assets
 
@@ -86,7 +86,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **159** distros on [repology.org](https://repology.org/project/alacritty). **74** are ✅ on the latest upstream release, **69** are ⚠️ on an older version.
+Reported by **159** distros on [repology.org](https://repology.org/project/alacritty). **72** are ✅ on the latest upstream release, **71** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -111,4 +111,4 @@ Install metadata for alacritty lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T07:00:03Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:09:01Z._
