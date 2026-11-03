@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 66,107 · **Forks**: 3,701 · **Open issues**: 6,369 · **Contributors**: 463
+- **Stars**: 66,110 · **Forks**: 3,707 · **Open issues**: 6,372 · **Contributors**: 463
 
 ## Totals (cumulative)
 
-- **Releases**: 108 · **Merged PRs**: 1943 · **Open PRs**: 17 · **Closed issues**: 6043 · **Open issues**: 326 · **Commits**: 2497
+- **Releases**: 108 · **Merged PRs**: 1943 · **Open PRs**: 19 · **Closed issues**: 6045 · **Open issues**: 327 · **Commits**: 2497
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 0 | 3 | 5 | 15 | 1 | 3 |
-| last60d | 2026-09-03 | 0 | 4 | 7 | 26 | 2 | 4 |
-| 90d | 2026-08-04 | 0 | 7 | 7 | 35 | 5 | 7 |
-| last180d | 2026-05-06 | 0 | 13 | 9 | 78 | 8 | 13 |
-| 360d | 2025-11-07 | 3 | 38 | 11 | 189 | 22 | 34 |
-| last720d | 2024-11-12 | 12 | 122 | 12 | 479 | 39 | 116 |
+| 30d | 2026-10-04 | 0 | 3 | 7 | 17 | 2 | 3 |
+| last60d | 2026-09-04 | 0 | 4 | 9 | 28 | 3 | 4 |
+| 90d | 2026-08-05 | 0 | 7 | 9 | 37 | 6 | 7 |
+| last180d | 2026-05-07 | 0 | 13 | 11 | 80 | 9 | 13 |
+| 360d | 2025-11-08 | 3 | 38 | 13 | 191 | 23 | 34 |
+| last720d | 2024-11-13 | 12 | 122 | 14 | 481 | 40 | 116 |
 
 ## Release assets
 
@@ -111,4 +111,4 @@ Install metadata for alacritty lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T07:09:01Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T08:05:55Z._
