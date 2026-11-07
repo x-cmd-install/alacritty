@@ -14,15 +14,15 @@ x install alacritty
 
 ## Code insight
 
-Total: **29,435** lines of code across **107** files in the top 5 languages.
+Total: **29,439** lines of code across **107** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 25,083 | 1,673 | 4,998 | 88 |
+| Rust | 25,086 | 1,673 | 4,998 | 88 |
 | Svg | 2,871 | 0 | 0 | 6 |
 | Bash | 528 | 0 | 3 | 1 |
 | Glsl | 267 | 55 | 85 | 6 |
-| Toml | 211 | 1 | 27 | 6 |
+| Toml | 212 | 1 | 28 | 6 |
 
 ## OpenSSF Scorecard
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.17.0` (2026-04-06)
-- **Last commit**: 2026-11-02
+- **Last commit**: 2026-11-06
 - **Assets in release**: 14
 
 ## Popularity
 
-- **Stars**: 66,122 · **Forks**: 3,705 · **Open issues**: 6,372 · **Contributors**: 463
+- **Stars**: 66,124 · **Forks**: 3,704 · **Open issues**: 6,373 · **Contributors**: 464
 
 ## Totals (cumulative)
 
-- **Releases**: 108 · **Merged PRs**: 1943 · **Open PRs**: 19 · **Closed issues**: 6045 · **Open issues**: 327 · **Commits**: 2497
+- **Releases**: 108 · **Merged PRs**: 1944 · **Open PRs**: 18 · **Closed issues**: 6045 · **Open issues**: 328 · **Commits**: 2498
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 3 | 7 | 16 | 2 | 3 |
-| last60d | 2026-09-07 | 0 | 4 | 8 | 27 | 3 | 4 |
-| 90d | 2026-08-08 | 0 | 7 | 9 | 35 | 6 | 7 |
-| last180d | 2026-05-10 | 0 | 13 | 11 | 79 | 9 | 13 |
-| 360d | 2025-11-11 | 3 | 36 | 13 | 189 | 23 | 34 |
-| last720d | 2024-11-16 | 12 | 122 | 14 | 479 | 40 | 116 |
+| 30d | 2026-10-08 | 0 | 4 | 5 | 15 | 3 | 4 |
+| last60d | 2026-09-08 | 0 | 5 | 7 | 27 | 4 | 5 |
+| 90d | 2026-08-09 | 0 | 8 | 8 | 35 | 6 | 8 |
+| last180d | 2026-05-11 | 0 | 14 | 10 | 78 | 10 | 14 |
+| 360d | 2025-11-12 | 3 | 37 | 12 | 188 | 24 | 35 |
+| last720d | 2024-11-17 | 12 | 123 | 13 | 476 | 41 | 117 |
 
 ## Release assets
 
@@ -86,7 +86,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **159** distros on [repology.org](https://repology.org/project/alacritty). **72** are ✅ on the latest upstream release, **71** are ⚠️ on an older version.
+Reported by **160** distros on [repology.org](https://repology.org/project/alacritty). **74** are ✅ on the latest upstream release, **70** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -111,4 +111,4 @@ Install metadata for alacritty lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:51:14Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:57:24Z._
