@@ -1,25 +1,39 @@
-- repo: manjaro_testing
-  subrepo: extra
+- repo: wikidata
+  srcname: Q94997987
+  visiblename: Alacritty
+  version: 0.17.0
+  origversion: null
+  status: newest
+  summary: terminal emulator
+  licenses:
+    - Apache Software License 2.0
+    - MIT License
+- repo: kali_rolling
+  subrepo: main
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+  visiblename: rust-alacritty
+  version: 0.17.0
+  origversion: 0.17.0-2
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - jamessan@debian.org
+  categories:
+    - misc
+- repo: ravenports
   srcname: alacritty
   binname: alacritty
   visiblename: alacritty
   version: 0.17.0
-  origversion: 0.17.0-1
+  origversion: null
   status: newest
-  summary: A cross-platform, GPU-accelerated terminal emulator
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: starkos
-  subrepo: extra
-  srcname: alacritty
-  visiblename: alacritty
-  version: 0.17.0
-  origversion: 0.17.0-1
-  status: newest
-  summary: A cross-platform, GPU-accelerated terminal emulator
+  summary: Cross-platform, GPU-accelerated terminal emulator
   maintainers:
-    - starkos@disroot.org
+    - kraileth@elderlinux.org
+  categories:
+    - rust
 - repo: aerynos
   srcname: alacritty
   visiblename: alacritty
@@ -290,17 +304,6 @@
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
-- repo: nix_stable_25_11
-  srcname: alacritty-graphics
-  visiblename: alacritty
-  version: 0.16.1-graphics
-  origversion: null
-  status: legacy
-  summary: Cross-platform, GPU-accelerated terminal emulator
-  maintainers:
-    - surryhill+nix@gmail.com
-  licenses:
-    - Apache-2.0
 - repo: alpine_3_21
   subrepo: community
   srcname: alacritty
@@ -366,6 +369,20 @@
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+  visiblename: rust-alacritty
+  version: 0.15.1
+  origversion: 0.15.1-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - jamessan@debian.org
+  categories:
+    - universe/misc
 - repo: alpine_3_22
   subrepo: community
   srcname: alacritty
@@ -418,18 +435,6 @@
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
-- repo: aur
-  srcname: alacritty-git
-  binname: alacritty-git
-  visiblename: alacritty-git
-  version: 0.18.0.2495.g54214706
-  origversion: 1:0.18.0.2495.g54214706-1
-  status: rolling
-  summary: A cross-platform, GPU-accelerated terminal emulator
-  maintainers:
-    - ilovemikael@aur
-  licenses:
-    - Apache
 - repo: alpine_3_22
   subrepo: community
   srcname: alacritty
@@ -547,18 +552,6 @@
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
-- repo: artix
-  subrepo: world
-  srcname: alacritty
-  binname: alacritty
-  visiblename: alacritty
-  version: 0.17.0
-  origversion: 0.17.0-1
-  status: newest
-  summary: A cross-platform, GPU-accelerated terminal emulator
-  licenses:
-    - Apache-2.0
-    - MIT
 - repo: alpine_3_24
   subrepo: community
   srcname: alacritty
@@ -696,6 +689,30 @@
     - utils
 - repo: arch
   subrepo: extra
+  srcname: alacritty
+  binname: alacritty
+  visiblename: alacritty
+  version: 0.17.0
+  origversion: 0.17.0-1
+  status: newest
+  summary: A cross-platform, GPU-accelerated terminal emulator
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: aur
+  srcname: alacritty-git
+  binname: alacritty-git
+  visiblename: alacritty-git
+  version: 0.18.0.2495.g54214706
+  origversion: 1:0.18.0.2495.g54214706-1
+  status: rolling
+  summary: A cross-platform, GPU-accelerated terminal emulator
+  maintainers:
+    - ilovemikael@aur
+  licenses:
+    - Apache
+- repo: artix
+  subrepo: world
   srcname: alacritty
   binname: alacritty
   visiblename: alacritty
@@ -997,17 +1014,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: stalix_dev
-  srcname: bin/alacritty
-  binname: bin/alacritty
-  visiblename: bin/alacritty
-  version: 0.17.0
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: fedora_40
   subrepo: updates
   srcname: rust-alacritty
@@ -1152,18 +1158,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: alacritty
-  binname: alacritty
-  visiblename: alacritty
-  version: 0.17.0
-  origversion: 0.17.0-1
-  status: newest
-  summary: A cross-platform, GPU-accelerated terminal emulator
-  licenses:
-    - Apache-2.0
-    - MIT
 - repo: fedora_rawhide
   subrepo: development
   srcname: rust-alacritty
@@ -1284,20 +1278,6 @@
   origversion: null
   status: newest
   summary: GPU-accelerated terminal emulator
-- repo: kali_rolling
-  subrepo: main
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-  visiblename: rust-alacritty
-  version: 0.17.0
-  origversion: 0.17.0-2
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - jamessan@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: x11-terms/alacritty
   visiblename: x11-terms/alacritty
@@ -1496,6 +1476,30 @@
   licenses:
     - Apache-2.0
     - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: alacritty
+  binname: alacritty
+  visiblename: alacritty
+  version: 0.17.0
+  origversion: 0.17.0-1
+  status: newest
+  summary: A cross-platform, GPU-accelerated terminal emulator
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: alacritty
+  binname: alacritty
+  visiblename: alacritty
+  version: 0.17.0
+  origversion: 0.17.0-1
+  status: newest
+  summary: A cross-platform, GPU-accelerated terminal emulator
+  licenses:
+    - Apache-2.0
+    - MIT
 - repo: msys2_clang64
   srcname: mingw-w64-alacritty
   binname: mingw-w64-clang-x86_64-alacritty
@@ -1572,6 +1576,17 @@
   maintainers:
     - brightone@protonmail.com
     - ramses@well-founded.dev
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
+  srcname: alacritty-graphics
+  visiblename: alacritty
+  version: 0.16.1-graphics
+  origversion: null
+  status: legacy
+  summary: Cross-platform, GPU-accelerated terminal emulator
+  maintainers:
+    - surryhill+nix@gmail.com
   licenses:
     - Apache-2.0
 - repo: nix_stable_26_05
@@ -1868,18 +1883,6 @@
     - jamessan@debian.org
   categories:
     - misc
-- repo: ravenports
-  srcname: alacritty
-  binname: alacritty
-  visiblename: alacritty
-  version: 0.17.0
-  origversion: null
-  status: newest
-  summary: Cross-platform, GPU-accelerated terminal emulator
-  maintainers:
-    - kraileth@elderlinux.org
-  categories:
-    - rust
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: alacritty
@@ -1980,6 +1983,27 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: stalix_dev
+  srcname: bin/alacritty
+  binname: bin/alacritty
+  visiblename: bin/alacritty
+  version: 0.17.0
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: starkos
+  subrepo: extra
+  srcname: alacritty
+  visiblename: alacritty
+  version: 0.17.0
+  origversion: 0.17.0-1
+  status: newest
+  summary: A cross-platform, GPU-accelerated terminal emulator
+  maintainers:
+    - starkos@disroot.org
 - repo: t2
   srcname: alacritty
   visiblename: alacritty
@@ -2028,20 +2052,6 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
-    - jamessan@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-  visiblename: rust-alacritty
-  version: 0.15.1
-  origversion: 0.15.1-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
     - jamessan@debian.org
   categories:
     - universe/misc
@@ -2151,13 +2161,3 @@
   summary: A cross-platform, GPU-accelerated terminal emulator
   maintainers:
     - wonkru-dev@proton.me
-- repo: wikidata
-  srcname: Q94997987
-  visiblename: Alacritty
-  version: 0.17.0
-  origversion: null
-  status: newest
-  summary: terminal emulator
-  licenses:
-    - Apache Software License 2.0
-    - MIT License
