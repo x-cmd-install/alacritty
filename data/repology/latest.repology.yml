@@ -1,13 +1,38 @@
-- repo: wikidata
-  srcname: Q94997987
-  visiblename: Alacritty
+- repo: pclinuxos
+  srcname: alacritty
+  visiblename: alacritty
+  version: 0.15.1
+  origversion: 0.15.1-1pclos2025
+  status: outdated
+  summary: A cross-platform, GPU-accelerated terminal emulator
+  categories:
+    - Terminals
+- repo: deepin_25
+  subrepo: main
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+  visiblename: rust-alacritty
+  version: 0.13.2
+  origversion: 0.13.2-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - jamessan@debian.org
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+  visiblename: rust-alacritty
   version: 0.17.0
-  origversion: null
+  origversion: 0.17.0-2
   status: newest
-  summary: terminal emulator
-  licenses:
-    - Apache Software License 2.0
-    - MIT License
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - jamessan@debian.org
+  categories:
+    - misc
 - repo: kali_rolling
   subrepo: main
   srcname: rust-alacritty
@@ -34,6 +59,20 @@
     - kraileth@elderlinux.org
   categories:
     - rust
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+  visiblename: rust-alacritty
+  version: 0.15.1
+  origversion: 0.15.1-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - jamessan@debian.org
+  categories:
+    - universe/misc
 - repo: aerynos
   srcname: alacritty
   visiblename: alacritty
@@ -369,20 +408,6 @@
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-  visiblename: rust-alacritty
-  version: 0.15.1
-  origversion: 0.15.1-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - jamessan@debian.org
-  categories:
-    - universe/misc
 - repo: alpine_3_22
   subrepo: community
   srcname: alacritty
@@ -604,6 +629,17 @@
     - soeren+alpine@soeren-tempel.net
   licenses:
     - Apache-2.0
+- repo: chimera
+  subrepo: user
+  srcname: alacritty
+  binname: alacritty-fishcomp
+  visiblename: alacritty-fishcomp
+  version: 0.17.0
+  origversion: 0.17.0-r0
+  status: newest
+  summary: Cross-platform, GPU-accelerated terminal emulator (fish completions)
+  licenses:
+    - MIT OR Apache-2.0
 - repo: alpine_edge
   subrepo: community
   srcname: alacritty
@@ -759,17 +795,6 @@
 - repo: chimera
   subrepo: user
   srcname: alacritty
-  binname: alacritty-fishcomp
-  visiblename: alacritty-fishcomp
-  version: 0.17.0
-  origversion: 0.17.0-r0
-  status: newest
-  summary: Cross-platform, GPU-accelerated terminal emulator (fish completions)
-  licenses:
-    - MIT OR Apache-2.0
-- repo: chimera
-  subrepo: user
-  srcname: alacritty
   binname: alacritty-man
   visiblename: alacritty-man
   version: 0.17.0
@@ -916,32 +941,6 @@
     - jamessan@debian.org
   categories:
     - misc
-- repo: deepin_25
-  subrepo: main
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-  visiblename: rust-alacritty
-  version: 0.13.2
-  origversion: 0.13.2-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - jamessan@debian.org
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-  visiblename: rust-alacritty
-  version: 0.17.0
-  origversion: 0.17.0-2
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - jamessan@debian.org
-  categories:
-    - misc
 - repo: exherbo
   subrepo: desktop
   srcname: x11-apps/alacritty
@@ -999,22 +998,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: release
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-    - rust-alacritty-debuginfo
-    - rust-alacritty-debugsource
-  visiblename: rust-alacritty
-  version: 0.13.2
-  origversion: 0.13.2-1.fc40
-  status: legacy
-  summary: Fast, cross-platform, OpenGL terminal emulator
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: updates
   srcname: rust-alacritty
   binnames:
@@ -1030,17 +1013,17 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: fedora_41
-  subrepo: updates
+- repo: fedora_40
+  subrepo: release
   srcname: rust-alacritty
   binnames:
     - alacritty
     - rust-alacritty-debuginfo
     - rust-alacritty-debugsource
   visiblename: rust-alacritty
-  version: 0.15.1
-  origversion: 0.15.1-3.fc41
-  status: outdated
+  version: 0.13.2
+  origversion: 0.13.2-1.fc40
+  status: legacy
   summary: Fast, cross-platform, OpenGL terminal emulator
   licenses:
     - Apache-2.0
@@ -1057,6 +1040,22 @@
   version: 0.13.2
   origversion: 0.13.2-3.fc41
   status: legacy
+  summary: Fast, cross-platform, OpenGL terminal emulator
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: updates
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+    - rust-alacritty-debuginfo
+    - rust-alacritty-debugsource
+  visiblename: rust-alacritty
+  version: 0.15.1
+  origversion: 0.15.1-3.fc41
+  status: outdated
   summary: Fast, cross-platform, OpenGL terminal emulator
   licenses:
     - Apache-2.0
@@ -1127,22 +1126,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: release
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-    - rust-alacritty-debuginfo
-    - rust-alacritty-debugsource
-  visiblename: rust-alacritty
-  version: 0.16.1
-  origversion: 0.16.1-3.fc44
-  status: legacy
-  summary: Fast, cross-platform, OpenGL terminal emulator
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: updates
   srcname: rust-alacritty
   binnames:
@@ -1153,6 +1136,22 @@
   version: 0.17.0
   origversion: 0.17.0-1.fc44
   status: newest
+  summary: Fast, cross-platform, OpenGL terminal emulator
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+    - rust-alacritty-debuginfo
+    - rust-alacritty-debugsource
+  visiblename: rust-alacritty
+  version: 0.16.1
+  origversion: 0.16.1-3.fc44
+  status: legacy
   summary: Fast, cross-platform, OpenGL terminal emulator
   licenses:
     - Apache-2.0
@@ -1749,20 +1748,6 @@
     - Apache-2.0
     - MIT
 - repo: parrot
-  subrepo: parrot/main
-  srcname: rust-alacritty
-  binnames:
-    - alacritty
-  visiblename: rust-alacritty
-  version: 0.15.1
-  origversion: 0.15.1-3
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - jamessan@debian.org
-  categories:
-    - misc
-- repo: parrot
   subrepo: parrot-updates/main
   srcname: rust-alacritty
   binnames:
@@ -1776,15 +1761,20 @@
     - jamessan@debian.org
   categories:
     - misc
-- repo: pclinuxos
-  srcname: alacritty
-  visiblename: alacritty
+- repo: parrot
+  subrepo: parrot/main
+  srcname: rust-alacritty
+  binnames:
+    - alacritty
+  visiblename: rust-alacritty
   version: 0.15.1
-  origversion: 0.15.1-1pclos2025
+  origversion: 0.15.1-3
   status: outdated
-  summary: A cross-platform, GPU-accelerated terminal emulator
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - jamessan@debian.org
   categories:
-    - Terminals
+    - misc
 - repo: pkgsrc_2026_2
   srcname: x11/alacritty
   binname: alacritty
@@ -1814,7 +1804,7 @@
   binname: alacritty
   visiblename: x11/alacritty
   version: 0.17.0
-  origversion: null
+  origversion: 0.17.0nb1
   status: newest
   summary: Cross-platform, GPU-accelerated terminal emulator
   maintainers:
@@ -2161,3 +2151,13 @@
   summary: A cross-platform, GPU-accelerated terminal emulator
   maintainers:
     - wonkru-dev@proton.me
+- repo: wikidata
+  srcname: Q94997987
+  visiblename: Alacritty
+  version: 0.17.0
+  origversion: null
+  status: newest
+  summary: terminal emulator
+  licenses:
+    - Apache Software License 2.0
+    - MIT License
