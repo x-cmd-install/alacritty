@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.17.0` (2026-04-06)
-- **Last commit**: 2026-11-06
+- **Last commit**: 2026-11-18
 - **Assets in release**: 14
 
 ## Popularity
 
-- **Stars**: 66,202 · **Forks**: 3,718 · **Open issues**: 6,375 · **Contributors**: 464
+- **Stars**: 66,219 · **Forks**: 3,719 · **Open issues**: 6,375 · **Contributors**: 465
 
 ## Totals (cumulative)
 
-- **Releases**: 108 · **Merged PRs**: 1944 · **Open PRs**: 19 · **Closed issues**: 6047 · **Open issues**: 328 · **Commits**: 2498
+- **Releases**: 108 · **Merged PRs**: 1945 · **Open PRs**: 18 · **Closed issues**: 6047 · **Open issues**: 328 · **Commits**: 2499
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 3 | 6 | 9 | 2 | 3 |
-| last60d | 2026-09-18 | 0 | 5 | 7 | 27 | 3 | 5 |
-| 90d | 2026-08-19 | 0 | 7 | 9 | 34 | 4 | 7 |
-| last180d | 2026-05-21 | 0 | 14 | 11 | 77 | 9 | 13 |
-| 360d | 2025-11-22 | 3 | 35 | 12 | 185 | 23 | 32 |
-| last720d | 2024-11-27 | 12 | 121 | 14 | 459 | 40 | 114 |
+| 30d | 2026-10-20 | 0 | 4 | 4 | 8 | 2 | 4 |
+| last60d | 2026-09-20 | 0 | 5 | 6 | 24 | 3 | 6 |
+| 90d | 2026-08-21 | 0 | 8 | 8 | 33 | 4 | 8 |
+| last180d | 2026-05-23 | 0 | 14 | 10 | 77 | 9 | 14 |
+| 360d | 2025-11-24 | 3 | 36 | 11 | 182 | 23 | 33 |
+| last720d | 2024-11-29 | 12 | 121 | 13 | 457 | 40 | 113 |
 
 ## Release assets
 
@@ -84,6 +84,24 @@ Lowest-scoring checks:
 | [Alacritty.svg](https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty.svg) | 16.8 KiB | `other` |
 | [_alacritty](https://github.com/alacritty/alacritty/releases/download/v0.17.0/_alacritty) | 11.0 KiB | `other` |
 
+## Distribution status
+
+Reported by **160** distros on [repology.org](https://repology.org/project/alacritty). **76** are ✅ on the latest upstream release, **68** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.17.0` | ✅ latest |
+| Debian 14 | `0.17.0` | ✅ latest |
+| Debian 13 | `0.15.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.16.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.12.2` | 🪦 legacy |
+| Arch | `0.17.0` | ✅ latest |
+| Fedora rawhide | `0.17.0` | ✅ latest |
+| Nix unstable | `0.17.0` | ✅ latest |
+| Void | `0.17.0` | ✅ latest |
+| Alpine edge | `0.17.0` | ✅ latest |
+| openSUSE Tumbleweed | `0.17.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for alacritty lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `alacritty` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -93,4 +111,4 @@ Install metadata for alacritty lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T11:04:01Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T10:16:32Z._

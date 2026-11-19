@@ -43,27 +43,27 @@ x install alacritty
 ## 发布
 
 - **最新版本**: `v0.17.0` (2026-04-06)
-- **最近提交**: 2026-11-06
+- **最近提交**: 2026-11-18
 - **Release 含资产**: 14 个
 
 ## 流行度
 
-- **Star**: 66,202 · **Fork**: 3,718 · **开放 issue**: 6,375 · **贡献者**: 464
+- **Star**: 66,219 · **Fork**: 3,719 · **开放 issue**: 6,375 · **贡献者**: 465
 
 ## 累计统计
 
-- **发布数**: 108 · **已合并 PR**: 1944 · **开放 PR**: 19 · **已关闭 issue**: 6047 · **开放 issue**: 328 · **提交数**: 2498
+- **发布数**: 108 · **已合并 PR**: 1945 · **开放 PR**: 18 · **已关闭 issue**: 6047 · **开放 issue**: 328 · **提交数**: 2499
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 3 | 6 | 9 | 2 | 3 |
-| last60d | 2026-09-18 | 0 | 5 | 7 | 27 | 3 | 5 |
-| 90d | 2026-08-19 | 0 | 7 | 9 | 34 | 4 | 7 |
-| last180d | 2026-05-21 | 0 | 14 | 11 | 77 | 9 | 13 |
-| 360d | 2025-11-22 | 3 | 35 | 12 | 185 | 23 | 32 |
-| last720d | 2024-11-27 | 12 | 121 | 14 | 459 | 40 | 114 |
+| 30d | 2026-10-20 | 0 | 4 | 4 | 8 | 2 | 4 |
+| last60d | 2026-09-20 | 0 | 5 | 6 | 24 | 3 | 6 |
+| 90d | 2026-08-21 | 0 | 8 | 8 | 33 | 4 | 8 |
+| last180d | 2026-05-23 | 0 | 14 | 10 | 77 | 9 | 14 |
+| 360d | 2025-11-24 | 3 | 36 | 11 | 182 | 23 | 33 |
+| last720d | 2024-11-29 | 12 | 121 | 13 | 457 | 40 | 113 |
 
 ## Release 资产
 
@@ -84,6 +84,24 @@ x install alacritty
 | [Alacritty.svg](https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty.svg) | 16.8 KiB | `other` |
 | [_alacritty](https://github.com/alacritty/alacritty/releases/download/v0.17.0/_alacritty) | 11.0 KiB | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/alacritty) 上共有 **160** 个发行版报告此项目。**76** 个 ✅ 已是最新上游版本，**68** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `0.17.0` | ✅ latest |
+| Debian 14 | `0.17.0` | ✅ latest |
+| Debian 13 | `0.15.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.16.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.12.2` | 🪦 legacy |
+| Arch | `0.17.0` | ✅ latest |
+| Fedora rawhide | `0.17.0` | ✅ latest |
+| Nix unstable | `0.17.0` | ✅ latest |
+| Void | `0.17.0` | ✅ latest |
+| Alpine edge | `0.17.0` | ✅ latest |
+| openSUSE Tumbleweed | `0.17.0` | ✅ latest |
+
 ## 改进这些数据
 
 alacritty 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `alacritty` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -93,4 +111,4 @@ alacritty 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T11:04:02Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T10:16:33Z._
