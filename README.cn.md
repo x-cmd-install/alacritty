@@ -48,7 +48,7 @@ x install alacritty
 
 ## 流行度
 
-- **Star**: 66,323 · **Fork**: 3,714 · **开放 issue**: 6,380 · **贡献者**: 465
+- **Star**: 66,336 · **Fork**: 3,714 · **开放 issue**: 6,380 · **贡献者**: 465
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install alacritty
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 3 | 2 | 10 | 2 | 3 |
-| last60d | 2026-09-28 | 0 | 5 | 6 | 25 | 3 | 6 |
-| 90d | 2026-08-29 | 0 | 7 | 8 | 38 | 4 | 7 |
-| last180d | 2026-05-31 | 0 | 14 | 9 | 77 | 9 | 14 |
-| 360d | 2025-12-02 | 3 | 36 | 11 | 182 | 21 | 33 |
-| last720d | 2024-12-07 | 12 | 121 | 13 | 452 | 40 | 113 |
+| 30d | 2026-10-29 | 0 | 3 | 1 | 10 | 2 | 3 |
+| last60d | 2026-09-29 | 0 | 5 | 6 | 25 | 3 | 6 |
+| 90d | 2026-08-30 | 0 | 7 | 8 | 38 | 4 | 7 |
+| last180d | 2026-06-01 | 0 | 14 | 9 | 75 | 8 | 14 |
+| 360d | 2025-12-03 | 3 | 36 | 11 | 182 | 21 | 33 |
+| last720d | 2024-12-08 | 12 | 121 | 13 | 452 | 40 | 113 |
 
 ## Release 资产
 
@@ -84,6 +84,24 @@ x install alacritty
 | [Alacritty.svg](https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty.svg) | 16.8 KiB | `other` |
 | [_alacritty](https://github.com/alacritty/alacritty/releases/download/v0.17.0/_alacritty) | 11.0 KiB | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/alacritty) 上共有 **160** 个发行版报告此项目。**76** 个 ✅ 已是最新上游版本，**68** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `0.17.0` | ✅ latest |
+| Debian 14 | `0.17.0` | ✅ latest |
+| Debian 13 | `0.15.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.16.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.12.2` | 🪦 legacy |
+| Arch | `0.17.0` | ✅ latest |
+| Fedora rawhide | `0.17.0` | ✅ latest |
+| Nix unstable | `0.17.0` | ✅ latest |
+| Void | `0.17.0` | ✅ latest |
+| Alpine edge | `0.17.0` | ✅ latest |
+| openSUSE Tumbleweed | `0.17.0` | ✅ latest |
+
 ## 改进这些数据
 
 alacritty 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `alacritty` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -93,4 +111,4 @@ alacritty 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261127.yml` · 2026-11-27T10:20:36Z._
+_数据快照: `data/card/261128.yml` · 2026-11-28T08:52:17Z._
